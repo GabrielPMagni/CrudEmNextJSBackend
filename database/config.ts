@@ -2,6 +2,7 @@ import { Sequelize } from 'sequelize';
 
 export const database = new Sequelize('database', 'root', 'root', {
   dialect: 'mysql',
+  host: 'crudemnextjsbackend-db-1',
 });
 
 database
